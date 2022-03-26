@@ -3,9 +3,14 @@ package id.ac.uin.student.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.logging.log4j.message.Message;
 
-import javax.persistence.*;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
 @Data
@@ -33,5 +38,9 @@ public class Student {
     @NotEmpty(message = " Phone Number is required")
     @Column(nullable = false,name = "phone",unique = true)
     private String phone;
+
+    @NotEmpty(message = " Jurusan is required")
+    @Column(nullable = false,name = "jurusan",unique = true)
+    private String jurusan;
 
 }

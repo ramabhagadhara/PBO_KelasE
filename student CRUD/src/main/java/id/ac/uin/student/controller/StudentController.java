@@ -1,10 +1,18 @@
 package id.ac.uin.student.controller;
 
+
 import id.ac.uin.student.entity.Student;
 import id.ac.uin.student.exception.StudentNotFoundException;
 import id.ac.uin.student.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
@@ -46,6 +54,7 @@ public class StudentController {
         student.setLastName(newStd.getLastName());
         student.setEmail(newStd.getEmail());
         student.setPhone(newStd.getPhone());
+        student.setJurusan(newStd.getJurusan());
         return studentService.save(student);
     }
 
