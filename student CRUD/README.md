@@ -33,6 +33,4 @@ Delete Student
 
 ![Add Student Page](img/add2.png "Add Student Page")
 
-![Add Student Page](img/add3.png "Add Student Page")
-
 ![Edit Student Page](img/edit.png "Edit Student Page")
