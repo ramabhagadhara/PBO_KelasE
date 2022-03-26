@@ -23,3 +23,7 @@ Find Student by ID
 Delete Student
 
 ![Delete Student](img/delete.png "Delete Student")
+
+list murid web
+
+![List murid web](img/list web.png "list murid web")
