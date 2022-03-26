@@ -24,6 +24,15 @@ Delete Student
 
 ![Delete Student](img/delete.png "Delete Student")
 
-list murid web
 
-![List murid web](img/list web.png "list murid web")
+### Web Screen shot
+
+![Index Home Page](img/list2.png "Index Home Page")
+
+![Index Home Page](img/list3.png "Index Home Page")
+
+![Add Student Page](img/add2.png "Add Student Page")
+
+![Add Student Page](img/add3.png "Add Student Page")
+
+![Edit Student Page](img/edit.png "Edit Student Page")
